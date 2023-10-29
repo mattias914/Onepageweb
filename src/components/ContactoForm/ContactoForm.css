@@ -1,0 +1,31 @@
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc3446;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.correo, .descripcion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.descripcion input {
+    width: 500px;
+    height: 200px;
+}
